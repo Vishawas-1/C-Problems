@@ -1,28 +1,6 @@
-# C Programs Collection
+# Code from C-Problems-main
 
-This repository contains a collection of basic to intermediate C programs. Each section includes a short description and the corresponding source code.
-
-## main.c
-
-**Description:** This program demonstrates how to main using C.
-
-```c
-#include <stdio.h>
-#include <conio.h>
-int main()
-{
-    //clrscr();  //only for turbo C/C++ users
-    printf("Hello World!");
-    getch();
-    return 0;
-}
-
-```
-
-## Avg-Using-Array.c
-
-**Description:** This program demonstrates how to avg using array using C.
-
+## C-Problems-main/Avg-Using-Array.c
 ```c
 #include<stdio.h>
 #include<conio.h>
@@ -45,10 +23,7 @@ int main()
 
 ```
 
-## Celsius-to-Fahrenheit.c
-
-**Description:** This program demonstrates how to celsius to fahrenheit using C.
-
+## C-Problems-main/Celsius-to-Fahrenheit.c
 ```c
 #include<stdio.h>
 #include<conio.h>
@@ -65,10 +40,7 @@ void main()
 
 ```
 
-## Convert-Case-U-L&L-U.c
-
-**Description:** This program demonstrates how to convert case u l&l u using C.
-
+## C-Problems-main/Convert-Case-U-L&L-U.c
 ```c
 #include<stdio.h>
 #include<conio.h>
@@ -97,10 +69,7 @@ void main()
 
 ```
 
-## Factorial-Fibonacci-Using-Recursive.c
-
-**Description:** This program demonstrates how to factorial fibonacci using recursive using C.
-
+## C-Problems-main/Factorial-Fibonacci-Using-Recursive.c
 ```c
 #include <stdio.h>
 #include <conio.h>
@@ -147,10 +116,7 @@ int main()
 
 ```
 
-## Find-Alphabet-Number-Symbol.c
-
-**Description:** This program demonstrates how to find alphabet number symbol using C.
-
+## C-Problems-main/Find-Alphabet-Number-Symbol.c
 ```c
 #include<stdio.h>
 #include<conio.h>
@@ -177,10 +143,7 @@ void main()
 
 ```
 
-## Find-Electricity-Bill.c
-
-**Description:** This program demonstrates how to find electricity bill using C.
-
+## C-Problems-main/Find-Electricity-Bill.c
 ```c
 #include<stdio.h>
 #include<conio.h>
@@ -212,10 +175,7 @@ void main()
 
 ```
 
-## Find-Number-In-Array.c
-
-**Description:** This program demonstrates how to find number in array using C.
-
+## C-Problems-main/Find-Number-In-Array.c
 ```c
 #include<stdio.h>
 #include<conio.h>
@@ -266,10 +226,7 @@ void main()
 
 ```
 
-## Find-Odd-Even.c
-
-**Description:** This program demonstrates how to find odd even using C.
-
+## C-Problems-main/Find-Odd-Even.c
 ```c
 #include<stdio.h>
 #include<conio.h>
@@ -292,10 +249,7 @@ void main()
 
 ```
 
-## Grade-Calculator.c
-
-**Description:** This program demonstrates how to grade calculator using C.
-
+## C-Problems-main/Grade-Calculator.c
 ```c
 #include<stdio.h>
 #include<conio.h>
@@ -334,10 +288,89 @@ void main()
 
 ```
 
-## Largest-among-three-numbers.c
+## C-Problems-main/Hexadecimal_Binary.c
+```c
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+    // clrscr();
+    char hex[10];
+    int i = 0;
+    printf("Enter hexadecimal number: ");
+    gets(hex);
+    printf("\nBinary: ");
+    while (hex[i] != '\0')
+    {
+        switch (hex[i])
+        {
+        case '0':
+            printf("0000");
+            break;
+        case '1':
+            printf("0001");
+            break;
+        case '3':
+            printf("0011");
+            break;
+        case '2':
+            printf("0010");
+            break;
+        case '4':
+            printf("0100");
+            break;
+        case '5':
+            printf("0101");
+            break;
+        case '6':
+            printf("0110");
+            break;
+        case '7':
+            printf("0111");
+            break;
+        case '8':
+            printf("1000");
+            break;
+        case '9':
+            printf("1001");
+            break;
+        case 'a':
+        case 'A':
+            printf("1010");
+            break;
+        case 'b':
+        case 'B':
+            printf("1011");
+            break;
+        case 'c':
+        case 'C':
+            printf("1100");
+            break;
+        case 'd':
+        case 'D':
+            printf("1101");
+            break;
+        case 'e':
+        case 'E':
+            printf("1110");
+            break;
+        case 'f':
+        case 'F':
+            printf("1111");
+            break;
+        default:
+            printf("Invalid hexadecimal number!");
+            break;
+        }
+        i++;
+    }
+    getch();
+    return 0;
+}
 
-**Description:** This program demonstrates how to largest among three numbers using C.
+```
 
+## C-Problems-main/Largest-among-three-numbers.c
 ```c
 #include<stdio.h>
 #include<conio.h>
@@ -364,10 +397,7 @@ void main()
 
 ```
 
-## Matrix-Add-Multiply-Reverse-2D-Array.c
-
-**Description:** This program demonstrates how to matrix add multiply reverse 2d array using C.
-
+## C-Problems-main/Matrix-Add-Multiply-Reverse-2D-Array.c
 ```c
 #define MAX 100
 #include <stdio.h>
@@ -534,10 +564,7 @@ void main()
 
 ```
 
-## Menu-Driven-AN-Prime-Reverse.c
-
-**Description:** This program demonstrates how to menu driven an prime reverse using C.
-
+## C-Problems-main/Menu-Driven-AN-Prime-Reverse.c
 ```c
 #include<stdio.h>
 #include<conio.h>
@@ -647,10 +674,7 @@ int main()
 
 ```
 
-## Menu-Driven-Calculator.c
-
-**Description:** This program demonstrates how to menu driven calculator using C.
-
+## C-Problems-main/Menu-Driven-Calculator.c
 ```c
 #include<stdio.h>
 #include<conio.h>
@@ -741,10 +765,47 @@ void main(){
 
 ```
 
-## Pattern-1.c
+## C-Problems-main/Palindrome_String.c
+```c
+#include <stdio.h>
+#include <conio.h>
+#include <string.h>
+int main()
+{
+    // clrscr();
+    char str[100];
+    int i, count;
+    printf("\nEnter a string: ");
+    gets(str);
+    count = strlen(str) - 1;
+    for (i = 0; i < count; i++)
+    {
+        if (str[i] >= 65 && str[i] <= 90)
+        {
+            str[i] += 32;
+        }
+    }
+    for (i = 0; i < count; i++)
+    {
+        if (str[i] != str[count])
+        {
+            printf("\nThe string is not a palindrome.");
+            break;
+        }
+        else
+        {
+            printf("\nThe string is a palindrome.");
+            break;
+        }
+        count--;
+    }
+    getch();
+    return 0;
+}
 
-**Description:** This program demonstrates how to pattern 1 using C.
+```
 
+## C-Problems-main/Pattern-1.c
 ```c
 #include<stdio.h>
 #include<conio.h>
@@ -768,10 +829,7 @@ void main()
 
 ```
 
-## Pattern-2.c
-
-**Description:** This program demonstrates how to pattern 2 using C.
-
+## C-Problems-main/Pattern-2.c
 ```c
 #include<stdio.h>
 #include<conio.h>
@@ -794,10 +852,7 @@ void main()
 
 ```
 
-## Pattern-3.c
-
-**Description:** This program demonstrates how to pattern 3 using C.
-
+## C-Problems-main/Pattern-3.c
 ```c
 #include<stdio.h>
 #include<conio.h>
@@ -820,10 +875,7 @@ void main()
 
 ```
 
-## Pattern-4.c
-
-**Description:** This program demonstrates how to pattern 4 using C.
-
+## C-Problems-main/Pattern-4.c
 ```c
 #include<stdio.h>
 #include<conio.h>
@@ -854,10 +906,7 @@ void main()
 
 ```
 
-## Pattern-5.c
-
-**Description:** This program demonstrates how to pattern 5 using C.
-
+## C-Problems-main/Pattern-5.c
 ```c
 #include<stdio.h>
 #include<conio.h>
@@ -888,10 +937,7 @@ void main()
 
 ```
 
-## Pattern-6.c
-
-**Description:** This program demonstrates how to pattern 6 using C.
-
+## C-Problems-main/Pattern-6.c
 ```c
 #include<stdio.h>
 #include<conio.h>
@@ -914,10 +960,7 @@ void main()
 
 ```
 
-## Pattern-7.c
-
-**Description:** This program demonstrates how to pattern 7 using C.
-
+## C-Problems-main/Pattern-7.c
 ```c
 #include<stdio.h>
 #include<conio.h>
@@ -944,10 +987,7 @@ void main()
 
 ```
 
-## Pattern-8.c
-
-**Description:** This program demonstrates how to pattern 8 using C.
-
+## C-Problems-main/Pattern-8.c
 ```c
 #include<stdio.h>
 #include<conio.h>
@@ -973,10 +1013,7 @@ void main()
 
 ```
 
-## Pattern-9.c
-
-**Description:** This program demonstrates how to pattern 9 using C.
-
+## C-Problems-main/Pattern-9.c
 ```c
 #include<stdio.h>
 #include<conio.h>
@@ -1003,10 +1040,64 @@ void main()
 
 ```
 
-## Prime-Composite.c
+## C-Problems-main/Pointer_Arithmetic.c
+```c
+#include <stdio.h>
+#include <conio.h>
+void input(float *x, float *y)
+{
+    printf("Enter first number: ");
+    scanf("%f", x);
+    printf("Enter second number: ");
+    scanf("%f", y);
+}
+int main()
+{
+    // clrscr();
+    float a, b;
+    float *num1, *num2;
+    int op;
+    printf("Enter Opration to be performed:\n1.Addition\n2.Subtraction\n3.Multiplication\n4.Division\n");
+    printf("Enter your choice (1-4): ");
+    scanf("%d", &op);
+    num1 = &a;
+    num2 = &b;
+    switch (op)
+    {
+    default:
+        printf("Invalid Choice!");
+        break;
+    case 1:
+        input(&a, &b);
+        printf("Sum = %.2f", (*num1) + (*num2));
+        break;
+    case 2:
+        input(&a, &b);
+        printf("Diffrance = %.2f", (*num1) - (*num2));
+        break;
+    case 3:
+        input(&a, &b);
+        printf("Product = %.2f", (*num1) * (*num2));
+        break;
+    case 4:
+        input(&a, &b);
+        if ((*num2) == 0)
+        {
+            printf("Division by zero is not possible.");
+        }
+        else
+        {
+            printf("Quotient = %.2f", (*num1) / (*num2));
+        }
+        break;
+    }
+    getch();
+    return 0;
+}
 
-**Description:** This program demonstrates how to prime composite using C.
+```
 
+## C-Problems-main/Prime-Composite.c
 ```c
 #include<stdio.h>
 #include<conio.h>
@@ -1043,10 +1134,7 @@ int main()
 
 ```
 
-## Simple-Calculator-If-Else.c
-
-**Description:** This program demonstrates how to simple calculator if else using C.
-
+## C-Problems-main/Simple-Calculator-If-Else.c
 ```c
 #include<stdio.h>
 #include<conio.h>
@@ -1081,10 +1169,7 @@ void main()
 
 ```
 
-## Simple-Calculator-Switch-Case.c
-
-**Description:** This program demonstrates how to simple calculator switch case using C.
-
+## C-Problems-main/Simple-Calculator-Switch-Case.c
 ```c
 #include<stdio.h>
 #include<conio.h>
@@ -1139,10 +1224,7 @@ void main()
 
 ```
 
-## Simple-Calculator-Using-Pointer.c
-
-**Description:** This program demonstrates how to simple calculator using pointer using C.
-
+## C-Problems-main/Simple-Calculator-Using-Pointer.c
 ```c
 #include <stdio.h>
 #include <conio.h>
@@ -1199,10 +1281,211 @@ int main()
 
 ```
 
-## Vowel-Consonant-Switch-Case.c
+## C-Problems-main/String_Functions.c
+```c
+#include <stdio.h>
+#include <conio.h>
+#include <string.h>
+int main()
+{
+    // clrscr();
+    char str1[100], str2[100];
+    int op, count, n;
+    while (1)
+    {
+        printf("\n\nString Operations!");
+        printf("\n1.Calculate length of a string\n2.Concatenate at the end of a given\n3.Copy one string to another\n4.Compare contents of two strings\n5.Copy nth character string to another\n6.Exit\nSelect Operation (1-6): ");
+        scanf("%d", &op);
+        if (op == 6)
+        {
+            printf("\nExiting the programe...");
+            break;
+        }
+        fflush(stdin);
+        switch (op)
+        {
+        case 1:
+            printf("\nEnter a String: ");
+            gets(str1);
+            printf("\nLength of %s = %d", str1, strlen(str1));
+            break;
+        case 2:
+            printf("\nEnter first String: ");
+            gets(str1);
+            printf("\nEnter second string: ");
+            gets(str2);
+            printf("\n%s", strcat(str1, str2));
+        case 3:
+            printf("\nEnter a String: ");
+            gets(str1);
+            strcpy(str2, str1);
+            printf("\nCopyed text = %s", str2);
+        case 4:
+            printf("\nEnter first String: ");
+            gets(str1);
+            printf("\nEnter second string: ");
+            gets(str2);
+            printf("\nCompare of %s and %s = %d", str1, str2, strcmp(str1, str2));
+        case 5:
+            printf("\nEnter a String: ");
+            gets(str1);
+            printf("\nEnter number of charactors, you want to copy: ");
+            scanf("%d", &n);
+            printf("\nCopyed charactor of %s = %s", str1, strncpy(str2, str1, n));
+        default:
+            printf("\nChose Crroct Opration!");
+            break;
+        }
+    }
+    getch();
+    return 0;
+}
 
-**Description:** This program demonstrates how to vowel consonant switch case using C.
+```
 
+## C-Problems-main/Time_Reading.c
+```c
+#include <stdio.h>
+#include <conio.h>
+#include <time.h>
+int main()
+{
+    // clrscr();
+    char timestr[10];
+    struct tm t = {0};
+    time_t check;
+    printf("\nEnter time in HH:MM:SS format: ");
+    gets(timestr);
+    if (timestr[2] != ':' || timestr[5] != ':')
+    {
+        printf("\nInvalid Time!");
+        return 0;
+    }
+    t.tm_hour = (timestr[0] - '0') * 10 + (timestr[1] - '0');
+    t.tm_min = (timestr[3] - '0') * 10 + (timestr[4] - '0');
+    t.tm_sec = (timestr[6] - '0') * 10 + (timestr[7] - '0');
+    check = mktime(&t);
+    if (t.tm_hour < 0 || t.tm_hour > 23 || t.tm_min < 0 || t.tm_min > 59 || t.tm_sec < 0 || t.tm_sec > 59)
+    {
+        printf("\nInvalid Time!");
+    }
+    else
+    {
+        printf("\nValid Time!");
+        printf("\nTime: %d:%d:%d",t.tm_hour,t.tm_min,t.tm_sec);
+        printf("\nHoure: %d",t.tm_hour);
+        printf("\nMinutes: %d",t.tm_min);
+        printf("\nSecond: %d",t.tm_sec);
+    }
+    getch();
+    return 0;
+}
+
+```
+
+## C-Problems-main/User_Defined_Ver_std.c
+```c
+#include <stdio.h>
+#include <conio.h>
+struct student
+{
+    char name[25];
+    int age, marks[5];
+};
+int main()
+{
+    // clrscr();
+    struct student std[3];
+    int i, j;
+    for (i = 0; i < 3; i++)
+    {
+        printf("Student %d\n", i + 1);
+        printf("Enter student name: ");
+        gets(std[i].name);
+        printf("Enter student age: ");
+        scanf("%d", std[i].age);
+        for (j = 0; j < 5; j++)
+        {
+            printf("Enter marks of subject %d: ", j + 1);
+            scanf("%d", &std[j].marks);
+        }
+        fflush(stdin);
+    }
+    printf("Student Ditails:\n");
+    for (i = 0; i < 3; i++)
+    {
+        printf("Name : %s\n", std[i].name);
+        printf("Age : %d", std[i].age);
+        for (j = 0; j < 5; j++)
+        {
+            printf("Marks : %d", std[j].marks);
+        }
+        printf("\n");
+    }
+    getch();
+    return 0;
+}
+
+```
+
+## C-Problems-main/User_Difined_Ver_Emp.c
+```c
+#include <stdio.h>
+#include <conio.h>
+struct emp
+{
+    int eid, eage;
+    float esal;
+    char ename[25], edpt[20], eadd[50];
+};
+int main()
+{
+    struct emp e[10];
+    int i, search_id, found = 0;
+    printf("Enter details of 10 employees:\n");
+    for (i = 0; i < 3; i++)
+    {
+        printf("\nEmployee %d:\n", i + 1);
+        printf("Enter Employee ID: ");
+        scanf("%d", &e[i].eid);
+        printf("Enter Employee Name: ");
+        gets(e[i].ename);
+        printf("Enter Employee Age: ");
+        scanf("%d", &e[i].eage);
+        printf("Enter Employee Department: ");
+        gets(e[i].edpt);
+        printf("Enter Employee Address: ");
+        gets(e[i].eadd);
+        printf("Enter Employee Salary: ");
+        scanf("%f", &e[i].esal);
+    }
+    printf("\nEnter Employee ID to search: ");
+    scanf("%d", &search_id);
+    for (i = 0; i < 3; i++)
+    {
+        if (e[i].eid == search_id)
+        {
+            found = 1;
+            printf("\nEmployee Details:\n");
+            printf("Employee ID: %d\n", e[i].eid);
+            printf("Employee Name: %s\n", e[i].ename);
+            printf("Employee Age: %d\n", e[i].eage);
+            printf("Employee Department: %s\n", e[i].edpt);
+            printf("Employee Address: %s\n", e[i].eadd);
+            printf("Employee Salary: %.2f\n", e[i].esal);
+            break;
+        }
+    }
+    if (!found)
+    {
+        printf("\nEmployee with ID %d not found.\n", search_id);
+    }
+    return 0;
+}
+
+```
+
+## C-Problems-main/Vowel-Consonant-Switch-Case.c
 ```c
 #include<stdio.h>
 #include<conio.h>
@@ -1234,10 +1517,7 @@ void main()
 
 ```
 
-## Vowel-Consonant-using-if-else.c
-
-**Description:** This program demonstrates how to vowel consonant using if else using C.
-
+## C-Problems-main/Vowel-Consonant-using-if-else.c
 ```c
 #include<stdio.h>
 #include<conio.h>
@@ -1256,6 +1536,20 @@ void main()
 		printf("%c is Consonant.",ch);
 	}
 	getch();
+}
+
+```
+
+## C-Problems-main/main.c
+```c
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+    //clrscr();  //only for turbo C/C++ users
+    printf("Hello World!");
+    getch();
+    return 0;
 }
 
 ```
